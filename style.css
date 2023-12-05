@@ -1,0 +1,322 @@
+*{
+ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+    nav{
+        width: 100%;
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 100px;
+        position: fix;
+        background-color: rgb(248, 247, 246);
+    }
+    
+    nav .logo p{
+    
+        font-size: 30px;
+        font-weight: bold;
+        float: left;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        cursor: pointer;
+    }
+    nav .logo img{
+        float: left;
+        width: 15%;
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 10px;
+        position: fix;
+        cursor: pointer;
+    }
+    
+    
+    nav ul{
+        float: right;
+    }
+    nav li{
+    display: inline-block;
+    list-style: none;
+    
+    
+    }
+    nav li a{
+        font-size: 10px;
+        text-transform: uppercase;
+        padding: 0px 30px;
+        color: black;
+        text-decoration: none;
+       font-weight: bold;
+    }
+    nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+    
+    }
+    .color1{
+        background-color: #D1D4F1;
+    }
+    id .img{
+        float: right;
+        width: 15%;
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 10px;
+        position: fix;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    /* Left side content */
+    .left-side {
+        width: 50%;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    .name {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    /* Right side image container */
+    .right-side {
+        width: 50%;
+        text-align: right;
+        position: relative;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Images */
+    .top-left-image {
+        position: absolute;
+        top: 1%;
+        left: 1%;
+    }
+    
+    .top-right-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    /* Buttons */
+    .buttons-container {
+        text-align: left;
+    }
+    
+    .button {
+        padding: 10px 20px;
+        background-color: #6653B2;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color:#585D78 ;
+    }
+
+    .container1 {
+        background-color:#585D78 ;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-column {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #99c4d0;
+        width: 300px;
+    }
+
+    .image {
+        width: 300px; /* Adjust image size as needed */
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .right-column p {
+        font-size: 16px; /* Adjust font size as needed */
+    }
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #D1D4F1;
+    }
+
+    .container2 {
+        max-width: 2000px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        text-size-adjust: 25;
+    }
+
+    .message {
+        background-color:transparent;
+        margin-top: 50px;
+        
+    }
+
+    .boxes {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 290px;
+    }
+
+    .box {
+        flex: 1;
+        background-color:#B6ABD6;
+        margin: 0 10px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .box img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('Images/img11.png'); /* Replace 'background.jpg' with the correct image path */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+    }
+
+    .container3 {
+        background-image: url('Images/img11.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .message {
+        background-color: transparent;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        margin: 10px auto;
+    }
+
+    .message-bottom {
+        color: #64379E;
+    }
+
+    .input-container {
+        display: flex;
+        justify-content:left;
+        align-items:left;
+    }
+
+    .email-input {
+        width: 70%;
+        height: 50px;
+        padding: 10px;
+        margin: 10px auto;
+        border: none;
+        border-radius: 5px;
+        background-color: #375170;
+        color: #e8e9ea;
+    }
+
+    .get-started-button {
+        background-color: #e8e9ea;
+        color:#725AA4;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+
+    /* Add this CSS to your existing stylesheet or create a new one */
+
+/* Footer Styles */
+.footer {
+    background-color: #fafcfd; /* Adjust the background color as needed */
+    color: rgb(19, 18, 18);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-logo img {
+    max-width: 100px; /* Adjust the logo size */
+}
+
+.follow-message {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px; /* Adjust the spacing between icons */
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
